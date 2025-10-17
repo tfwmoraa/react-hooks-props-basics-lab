@@ -1,3 +1,4 @@
+
 const user = {
   name: "Liza",
   city: "New York",
@@ -9,4 +10,4 @@ const user = {
   },
 };
 
-export default user;
+export { user };
