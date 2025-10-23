@@ -1,6 +1,7 @@
 import React from "react";
 
-function Links({ github, linkedin }) {
+function Links({ links }) {
+  const { github, linkedin } = links;
   return (
     <div id="links">
       <h3>Links</h3>
